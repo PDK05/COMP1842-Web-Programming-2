@@ -1,0 +1,4 @@
+Menu => Link(Route) => View
+
+npm uninstall vue-router
+npm install vue-router@4.2.5

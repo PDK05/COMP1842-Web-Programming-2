@@ -1,0 +1,13 @@
+		Database   Backend(Server)   Frontend(Client)
+default port	 27017          3000              8080
+
+đọc lỗi
+C:\BCode\Web2\Week8\vocab-builder\server\api\models\vocabModel.js:28
+file vocabModel.js dòng 28
+
+
+vocab-builder (root folder)
+ npm i -g @vue/cli (only 1 time)
+ npm create client
+
+frontend css

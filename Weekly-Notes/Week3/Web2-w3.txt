@@ -1,0 +1,66 @@
+ASCSS/SCSS vs CSS
+
+
+| {meh} inline css: <h1 style="color: red"></h1>
+|
+| {not bad} internal css: <style></style>
+|
+| {the best} external css: in another file
+| /-> <link rel="stylesheet" href="demo.css"</link>
+
+
+ASCSS
+  |---compile--->CSS
+SCSS
+
+
+ACSS:
+============================
+$my_first_color: red;
+
+h1 {
+   color: $my_first_color;
+}
+============================
+
+
+Live Sass Compiler (Visual Studio Code Extension)
+
+
+|	ACSS (python syntax style)
+|	============================
+|	1 $my_first_color: red
+| 	2
+|	3 body
+|  	4   color: $my_first_color
+|	============================
+
+
+|	SCSS (php syntax style)
+|	============================
+|	1 $my_first_color: red;
+|	2
+|	3 body {
+|   	4     color: $my_first_color;
+|	5 }
+|	============================
+
+
+|	Inheritance:
+|	============================
+|	1 .parent{parent-attribute}
+|	2
+|	3 .child {
+|	4    @extend: .parent;
+|	5    child-attribute
+|	6  } 
+|	============================
+|
+|	Mixin:
+|	============================
+|	1 @mixin mixin-name{attribute}
+|	2
+|	3 .class-name-that-using-mixin {
+|	4    @include mixin-name;
+|	5  } 
+|	============================

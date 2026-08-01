@@ -1,0 +1,12 @@
+web1 no framework
+web1: PHP HTML JS CSS MySQL
+web1 -> SSR(Server side rendering)
+
+web2 has framework
+web2 -> CSR(Client side rendering)
+we2: MEVN stack
+MongoDB: Database
+ExpressJS: BE Framework
+VueJS: FE Framework
+NodeJS: BE tech
+- the content is immediately changed

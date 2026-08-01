@@ -1,0 +1,31 @@
+DEV	|npm run dev|	still developing	- node server.js
+START	|npm start  |	the code is done	- nodemon server.js
+
+C:\BCode\Web2\Week7\restful-api>npm init -y
+C:\BCode\Web2\Week7\restful-api>npm install -g nodemon
+C:\BCode\Web2\Week7\restful-api>npm install express
+C:\BCode\Web2\Week7\restful-api>npm install mongoose
+
+npm i express mongoose
+
+.. (2 dot symbol, go up 1 level from children folder to the parent folder)
+
+npm bcrypt.js (ma hoa mat khau)
+express-jwt (login logout)
+
+
+
+create 50 records in JSON.topic:vovabulary, fields: english and german
+
+database: comp1842
+collection (table): vocabs
+fields (columns): english, german
+
+prepare project structure
+  - backend : create API
+    api/controllers
+       - VocabController or WordController
+    api/models
+    api/routes
+
+  - frontend : call API

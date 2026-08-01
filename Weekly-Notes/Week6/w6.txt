@@ -1,0 +1,71 @@
+ExpressJS framework
+
+npx express-generator --view=hbs
+npm install
+npm start
+
+install extension Postcode
+
+
+npm run dev : development stage (code is not done)
+
+npm start : production stage (code is done)
+
+
+ADD	|	"dev": "nodemon ./bin/www",	|
+INTO	|	package.json			|
+
+
+
+|	API:::
+|	weather data
+|	DATABASE
+|	|
+|	| share
+|	|	     - call - Desk App
+|	V	    |
+|	(( API )) - - - call - Mobile App
+|	Application
+|	Programming Interface
+
+
+
+|	MEVN stack
+|			       SERVER       create        call      CLIENT
+|			     - - - - - -    - - -        - - -    - - - - - -
+|	| Database |  __\  | Backend      |  __\  ((API)) _____\  | Frontend |  
+|	| MongoDB  |    /  | Node/Express |    /     |	       /  | View     |
+|			    - - - - - - -         - - - -
+|	                    What we study     bridge to connect
+|				   today       backend and frontend
+|
+| step1: database => prepare data
+| step2: backend => create API
+| step3: frontend => call API
+| today: step 1 + 2
+
+
+
+|
+|	Restful-api
+|	    |
+|	    |---api
+|	    |    |---controllers  - TaskController.js
+|	    |    |---Models       - TaskModel.js
+|	    |    |---routers      - TaskRouter.js
+|	    |
+|	    |---server.js
+|
+| Coding flow
+| 1. server.js
+| 2. Model
+| 3. Router
+| 4. Controller
+|
+| npm init -y
+| npm install express mongoose (express: Express framework)
+|			       (mongoose: Connect to MongoDB)
+
+
+
+

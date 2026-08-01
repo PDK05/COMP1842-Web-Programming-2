@@ -1,0 +1,17 @@
+System Demo: vocab-builder-comp1842.vercel.app
+System Visualizer: vocab-builder-visualizer.vercel.app
+
+app.route('/vocabs') "/vocabs" is API endpoint
+
+
+1. main.js
+2. router.js
+3. api.js
+4. App.vue
+5, 6, 7, 8 :: Edit, New, Show, Words .vue
+
+WebStorm – Focus on Web-programming
+
+Jetbrains
+
+SweetAlert2

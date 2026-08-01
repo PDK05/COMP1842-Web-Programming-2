@@ -1,0 +1,21 @@
+-jQuery là thư viện JavaScript hỗ trợ viết code JavaScript gọn hơn, hỗ trợ nhiều trình duyệt web khác nhau, làm chương trình tương thích với mọi trình duyệt
+-js library
+-support/facilities wailing JS + AJAX
+
+-cung cấp thư viện bằng nguồn "https://code.jquery.com/jquery-3.6.0.min.js" sau đó có thể dùng cú pháp của jQuery
+
+-AJAX không phải ngôn ngữ, không phải thư viện, nó là kĩ thuật trao đổi dữ liệu giữa client và server
+-dùng jquery sẽ dễ sử dụng kĩ thuật AJAX
+-asynchaonous
+
+SPA ứng dụng chỉ có 1 trang đơn, Single-page application, k có chuyện tải lại toàn bộ web
+
+Vue.js dùng cho frontend, dễ học, phạm vi phù hợp
+
+Mongo DB dùng cho database
+
+Express.js Framework dùng cho backend
+
+React dùng cho phạm vi rất lớn
+
+Node.js Web Server

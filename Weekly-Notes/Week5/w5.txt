@@ -1,0 +1,4 @@
+MongoDB(cont)
+NodeJS server
+Connect NodeJS with MongoDB
+      _backend_    _database_
