@@ -68,6 +68,7 @@
 <script>
 import { ref, computed, onMounted } from 'vue';
 import { viewAllWords } from '@/helpers/api';
+import '@/assets/Flashcards.css';
 
 export default {
   name: 'Flashcards',
@@ -138,88 +139,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.flashcard-wrapper {
-  display: flex;
-  justify-content: center;
-}
-
-.flip-card {
-  perspective: 1200px;
-  display: flex;
-  justify-content: center;
-  width: 460px;
-  height: 300px;
-  margin: 0 auto;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s ease;
-  transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transform-origin: center center;
-  cursor: pointer;
-}
-
-.flip-card-inner.flipped {
-  transform: rotateY(180deg);
-  -webkit-transform: rotateY(180deg);
-}
-
-.flip-card-inner.no-transition {
-  transition: none !important;
-}
-
-.flip-card-face {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  border-radius: 16px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 24px;
-}
-
-.flip-card-front {
-  background-color: #0d47a1;
-  color: #ffffff;
-  transform: rotateY(0deg);
-  z-index: 2;
-}
-
-.flip-card-back {
-  background-color: #000000;
-  color: #ffd600;
-  transform: rotateY(180deg);
-}
-
-.card-content {
-  text-align: center;
-}
-
-.card-content h2 {
-  margin: 0;
-  font-size: 2.8rem;
-}
-
-.sub-label {
-  margin-top: 1rem;
-  color: rgba(255,255,255,0.75);
-  font-size: 1.1rem;
-}
-
-.flip-card-back .sub-label {
-  color: rgba(255,214,0,0.75);
-}
-</style>
