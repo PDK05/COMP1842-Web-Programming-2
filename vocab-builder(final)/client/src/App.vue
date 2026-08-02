@@ -40,14 +40,17 @@ export default {
         <router-link to="/words/new" class="item">
           <i class="plus icon"></i>New
         </router-link>
+        <router-link to="/words/flashcards" class="item">
+          <i class="book icon"></i>Flashcards
+        </router-link>
       </div>
     </div>
   </div>
 
   <div class="ui container">
-    <div class="ui grid">
+    <div class="ui centered grid">
       <div class="row">
-        <div class="twelve wide column">
+        <div class="twelve wide centered column">
           <router-view />
         </div>
       </div>
