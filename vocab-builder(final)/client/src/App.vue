@@ -40,17 +40,26 @@ export default {
         <router-link to="/words/new" class="item">
           <i class="plus icon"></i>New
         </router-link>
+<<<<<<< HEAD
         <router-link to="/words/flashcards" class="item">
           <i class="book icon"></i>Flashcards
         </router-link>
+=======
+>>>>>>> b0482e08e10f87986513b5ce12a5656beedbc53c
       </div>
     </div>
   </div>
 
   <div class="ui container">
+<<<<<<< HEAD
     <div class="ui centered grid">
       <div class="row">
         <div class="twelve wide centered column">
+=======
+    <div class="ui grid">
+      <div class="row">
+        <div class="twelve wide column">
+>>>>>>> b0482e08e10f87986513b5ce12a5656beedbc53c
           <router-view />
         </div>
       </div>
